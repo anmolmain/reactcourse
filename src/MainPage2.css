@@ -1,0 +1,53 @@
+* {
+    overflow-x: hidden;
+}
+
+h1 {
+    background-color: aqua;
+}
+
+.Red {
+    background-color: red;
+}
+
+.Yellow {
+    background-color: yellow;
+}
+
+.Blue {
+    background-color: blue;
+}
+
+.Green {
+    background-color: green;
+}
+
+.defineColor {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    overflow: hidden;
+}
+
+.parentDiv {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.childDiv {
+    background-color: indianred;
+    transition: 0.3s;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
